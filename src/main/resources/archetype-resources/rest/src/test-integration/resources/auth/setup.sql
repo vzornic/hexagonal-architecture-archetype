@@ -1,0 +1,1 @@
+INSERT INTO public.users (id, username, email, hashed_pw, salt) VALUES ('ab1fe276-bb3c-4fba-a2c3-edd3e808a705', 'vzornic', 'vzornic', '$2a$10$prUTIdiezn.N74j2BaCzuejfWTELViMGLXBThMRwdhAkIFJ8HLcd2', '$2a$10$prUTIdiezn.N74j2BaCzue');

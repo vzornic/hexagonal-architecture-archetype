@@ -1,0 +1,1 @@
+DELETE FROM users WHERE id = 'ab1fe276-bb3c-4fba-a2c3-edd3e808a705';

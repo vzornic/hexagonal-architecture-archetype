@@ -1,0 +1,15 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="flowrspot@localhost" uuid="6e34aa32-2164-4fec-980c-c893cc41c5c2">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/flowrspot</jdbc-url>
+      <working-dir>${symbol_dollar}ProjectFileDir${symbol_dollar}</working-dir>
+    </data-source>
+  </component>
+</project>

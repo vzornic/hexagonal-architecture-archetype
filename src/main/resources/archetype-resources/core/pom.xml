@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>${rootArtifactId}</artifactId>
+        <groupId>${groupId}</groupId>
+        <version>${version}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>core</artifactId>
+    <packaging>pom</packaging>
+    <description>This module wraps 3 core components of hexagonal architecture.
+        *Domain* module contains project domain models
+        *api* module contains project specification/contracts to be implemented, while contracts are used by ${artifactId} layer
+        *${artifactId}* Layer which contains business logic using only domain and api as dependencies.
+
+        This module is clear of any external dependencies.</description>
+
+    <modules>
+        <module>domain</module>
+        <module>application</module>
+        <module>api</module>
+    </modules>
+
+
+</project>

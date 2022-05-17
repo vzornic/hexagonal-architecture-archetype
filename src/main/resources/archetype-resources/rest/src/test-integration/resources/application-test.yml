@@ -1,0 +1,9 @@
+spring:
+  flyway:
+    enabled: true
+    schemas: public
+
+flowrspot:
+  jwt:
+    secret: q3t6w9z$C&F)J@NcQfTjWnZr4u7x!A%D*G-KaPdSgUkXp2s5v8y/B?E(H+MbQeTh
+    expiry: 1800000

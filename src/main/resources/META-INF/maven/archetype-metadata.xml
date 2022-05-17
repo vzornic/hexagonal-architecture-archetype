@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor xsi:schemaLocation="https://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.1.0 http://maven.apache.org/xsd/archetype-descriptor-1.1.0.xsd" name="parent"
+    xmlns="https://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <fileSets>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>.idea/dataSources</directory>
+      <includes>
+        <include>**/*.xml</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" encog="UTF-8">
+      <directory>.idea/inspectionProfiles</directory>
+      <includes>
+        <include>**/*.xml</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>.idea</directory>
+      <includes>
+        <include>**/*.xml</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>.idea/dataSources</directory>
+      <includes>
+        <include>**/*.meta</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>docker/local</directory>
+      <includes>
+        <include>**/*.yml</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>.idea</directory>
+      <includes>
+        <include>**/*.gitignore</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory></directory>
+      <includes>
+        <include>archtype.properties</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory></directory>
+      <includes>
+        <include>README.md</include>
+        <include>dot.gitignore</include>
+        <include>lombok.config</include>
+        <include>.java-version</include>
+        <include>Makefile</include>
+      </includes>
+    </fileSet>
+  </fileSets>
+  <modules>
+    <module id="core" dir="core" name="core">
+      <modules>
+        <module id="domain" dir="domain" name="domain">
+          <fileSets>
+            <fileSet filtered="true" encoding="UTF-8">
+              <directory>src/main/java</directory>
+              <includes>
+                <include>**/*.java</include>
+              </includes>
+            </fileSet>
+          </fileSets>
+        </module>
+        <module id="api" dir="api" name="api">
+          <modules>
+            <module id="repository-api" dir="repository-api" name="repository-api">
+              <fileSets>
+                <fileSet filtered="true" encoding="UTF-8">
+                  <directory>src/main/java</directory>
+                  <includes>
+                    <include>**/*.java</include>
+                  </includes>
+                </fileSet>
+              </fileSets>
+            </module>
+            <module id="accounts-api" dir="accounts-api" name="accounts-api">
+              <fileSets>
+                <fileSet filtered="true" encoding="UTF-8">
+                  <directory>src/main/java</directory>
+                  <includes>
+                    <include>**/*.java</include>
+                  </includes>
+                </fileSet>
+              </fileSets>
+            </module>
+          </modules>
+        </module>
+        <module id="application" dir="application" name="application">
+          <fileSets>
+            <fileSet filtered="true" encoding="UTF-8">
+              <directory>src/main/java</directory>
+              <includes>
+                <include>**/*.java</include>
+              </includes>
+            </fileSet>
+            <fileSet filtered="true" encoding="UTF-8">
+              <directory>src/test/java</directory>
+              <includes>
+                <include>**/*.java</include>
+              </includes>
+            </fileSet>
+          </fileSets>
+        </module>
+      </modules>
+    </module>
+    <module id="api-impl" dir="api-impl" name="api-impl">
+      <modules>
+        <module id="repository-accounts-impl" dir="repository-accounts-impl" name="repository-accounts-impl">
+          <fileSets>
+            <fileSet filtered="true" encoding="UTF-8">
+              <directory>src/main/java</directory>
+              <includes>
+                <include>**/*.java</include>
+              </includes>
+            </fileSet>
+            <fileSet encoding="UTF-8">
+              <directory>src/main/resources</directory>
+              <includes>
+                <include>**/*.sql</include>
+              </includes>
+            </fileSet>
+            <fileSet filtered="true" encoding="UTF-8">
+              <directory>src/test/java</directory>
+              <includes>
+                <include>**/*.java</include>
+              </includes>
+            </fileSet>
+          </fileSets>
+        </module>
+      </modules>
+    </module>
+    <module id="rest" dir="rest" name="rest">
+      <fileSets>
+        <fileSet filtered="true" encoding="UTF-8">
+          <directory>src/main/java</directory>
+          <includes>
+            <include>**/*.java</include>
+          </includes>
+        </fileSet>
+        <fileSet encoding="UTF-8">
+          <directory>src/main/resources</directory>
+          <includes>
+            <include>**/*.yml</include>
+          </includes>
+        </fileSet>
+        <fileSet filtered="true" encoding="UTF-8">
+          <directory>src/test-integration/java</directory>
+          <includes>
+            <include>**/*.java</include>
+          </includes>
+        </fileSet>
+        <fileSet encoding="UTF-8">
+          <directory></directory>
+          <includes>
+            <include>**/*.</include>
+            <include>**/*.md</include>
+          </includes>
+        </fileSet>
+        <fileSet encoding="UTF-8">
+          <directory>src/test-integration/resources</directory>
+          <includes>
+            <include>**/*.yml</include>
+            <include>**/*.sql</include>
+          </includes>
+        </fileSet>
+      </fileSets>
+    </module>
+    <module id="code-coverage" dir="code-coverage" name="code-coverage" />
+  </modules>
+</archetype-descriptor>
