@@ -26,7 +26,7 @@ In hexagonal architecture world this module is containing all the **output ports
 
 This module is the most important one in the entire project as it encapsulates the business logic of the application.
 
-It also follows [Command pattern](https://en.wikipedia.org/wiki/Command_pattern) so all use cases are written using [UseCase class](core/application/src/main/java/com/vzornic/flowrspot/application/UseCase.java).
+It also follows [Command pattern](https://en.wikipedia.org/wiki/Command_pattern) so all use cases are written using UseCase class.
 
 This module imports only `domain` and `api` modules and is not aware of any frameworks or actual implementations of ports (i.e postgresql).
 
