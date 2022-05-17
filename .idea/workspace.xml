@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bb57f53-534c-4c0b-b20c-ec0ec16db570" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype-metadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype-metadata.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/docker/local/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/docker/local/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/rest/src/main/java/__groupId__.__rootArtifactId__.rest/security/jwt/JWTConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/rest/src/main/java/__groupId__.__rootArtifactId__.rest/security/jwt/JWTConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/rest/src/main/resources/application-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/rest/src/main/resources/application-local.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/rest/src/test-integration/java/com/vzornic/flowrspot/__artifactId__/it/configuration/BaseIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/rest/src/test-integration/java/com/vzornic/flowrspot/__artifactId__/it/configuration/BaseIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/rest/src/test-integration/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/rest/src/test-integration/resources/application-test.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652780872596</updated>
       <workItem from="1652780873785" duration="173000" />
-      <workItem from="1652783960409" duration="5064000" />
+      <workItem from="1652783960409" duration="9068000" />
     </task>
     <servers />
   </component>
