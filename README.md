@@ -7,6 +7,21 @@ but rather just to explain on how I assembled the modules to make it easy to und
 
 Having this in mind it is necessary to explain key modules and how they are recognized by architecture theory.
 
+```
+artifactory-id
+├─ api-impl/
+│  ├─ pom.xml
+├─ rest/
+│  ├─ pom.xml
+├─ core/
+│  ├─ domain/
+│  │  ├─ pom.xml
+│  ├─ application/
+│  │  ├─ pom.xml
+│  ├─ api/
+│  │  ├─ pom.xml
+│  ├─ pom.xml
+```
 
 ### Domain
 
