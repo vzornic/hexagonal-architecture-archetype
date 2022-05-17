@@ -34,9 +34,9 @@ public abstract class BaseIT {
     protected MockMvc mockMvc;
     @ClassRule
     public static PostgreSQLContainer POSTGRES = new PostgreSQLContainer("postgres")
-            .withDatabaseName("flowrspot")
-            .withUsername("flowrspot")
-            .withPassword("flowrspot");
+            .withDatabaseName("example")
+            .withUsername("example")
+            .withPassword("example");
 
     static class Initializer implements ApplicationContextInitializer<ConfigurableApplicationContext> {
 

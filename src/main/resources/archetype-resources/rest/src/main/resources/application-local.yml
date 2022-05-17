@@ -1,15 +1,15 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/flowrspot
-    username: flowrspot
-    password: flowrspot
+    url: jdbc:postgresql://localhost:5432/example
+    username: example
+    password: example
   flyway:
     enabled: true
     schemas: public
   jpa:
     show-sql: true
 
-flowrspot:
+${rootArtifactId}:
   jwt:
     secret: q3t6w9z$C&F)J@NcQfTjWnZr4u7x!A%D*G-KaPdSgUkXp2s5v8y/B?E(H+MbQeTh
     expiry: 1800000

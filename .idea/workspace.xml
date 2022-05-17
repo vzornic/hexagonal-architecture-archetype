@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bb57f53-534c-4c0b-b20c-ec0ec16db570" name="Changes" comment="" />
+    <list default="true" id="0bb57f53-534c-4c0b-b20c-ec0ec16db570" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype-metadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype-metadata.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/docker/local/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/docker/local/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/rest/src/main/java/__groupId__.__rootArtifactId__.rest/security/jwt/JWTConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/rest/src/main/java/__groupId__.__rootArtifactId__.rest/security/jwt/JWTConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/rest/src/main/resources/application-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/rest/src/main/resources/application-local.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/rest/src/test-integration/java/com/vzornic/flowrspot/__artifactId__/it/configuration/BaseIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/rest/src/test-integration/java/com/vzornic/flowrspot/__artifactId__/it/configuration/BaseIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/rest/src/test-integration/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/rest/src/test-integration/resources/application-test.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -21,6 +32,7 @@
     </option>
   </component>
   <component name="ProjectId" id="29HrVBfVqZvl6ja6j1wKCpS367H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,6 +41,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/home/vedad/dev/hexagonal-architecture-archetype/src/main/resources/archetype-resources/core/api/accounts-api/src/main/java",
     "nodejs_package_manager_path": "npm"
@@ -52,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652780872596</updated>
       <workItem from="1652780873785" duration="173000" />
-      <workItem from="1652783960409" duration="4400000" />
+      <workItem from="1652783960409" duration="5064000" />
     </task>
     <servers />
   </component>

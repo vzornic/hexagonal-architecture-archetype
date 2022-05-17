@@ -8,9 +8,9 @@ services:
     ports:
       - "5432:5432"
     environment:
-      - POSTGRES_USER=flowrspot
-      - POSTGRES_PASSWORD=flowrspot
-      - POSTGRES_DB=flowrspot
+      - POSTGRES_USER=example
+      - POSTGRES_PASSWORD=example
+      - POSTGRES_DB=example
   sonarqube:
     image: sonarqube:7.9.2-community
     ports:

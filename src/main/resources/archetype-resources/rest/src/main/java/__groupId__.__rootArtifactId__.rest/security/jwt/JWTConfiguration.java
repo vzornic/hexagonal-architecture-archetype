@@ -10,7 +10,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Component
-@ConfigurationProperties(prefix = "flowrspot.jwt")
+@ConfigurationProperties(prefix = "${rootArtifactId}.jwt")
 @Data
 public class JWTConfiguration {
 	private String secret;
